@@ -4,12 +4,20 @@
   "description": "node lab 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "author": "nigeloconnor",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node lab 1"
   }
 }
