@@ -1,0 +1,54 @@
+[33mcommit 4bfd8186d344a8d51a560f8315365cabda40d070[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Nigel O'Connor <treatyman@gmail.com>
+Date:   Sun Mar 10 20:49:22 2019 +0000
+
+    node-lab1,  greeting module added
+
+[33mcommit 381009dbd2063edcdd3af576cbe7eeda70b26896[m
+Author: Nigel O'Connor <treatyman@gmail.com>
+Date:   Sun Mar 10 20:39:15 2019 +0000
+
+    node-lab1,  simple server
+
+[33mcommit b6a3463ab75ca814d0070d8c861d91c141fccb96[m
+Author: Nigel O'Connor <treatyman@gmail.com>
+Date:   Sun Mar 10 20:29:05 2019 +0000
+
+    set up and initial configuration2
+
+[33mcommit 9c7772d5db77a43816e0d175f91fc35df05d1dce[m
+Author: Nigel O'Connor <treatyman@gmail.com>
+Date:   Sun Mar 10 20:00:07 2019 +0000
+
+    set up and initial configuration
+
+[33mcommit 680204eb6d55bfa51bac6e7f87e0d8e680aadf60[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: d7847e1 4f4e44a
+Author: Nigel O'Connor <treatyman@gmail.com>
+Date:   Sun Mar 10 19:48:56 2019 +0000
+
+    Merge branch 'master' of https://github.com/nigelconnor/ewd-node-labs-2019
+
+[33mcommit 4f4e44a8f6e18d847bd81c1bcb22dc4de2682342[m
+Author: nigelconnor <48335804+nigelconnor@users.noreply.github.com>
+Date:   Sun Mar 10 19:36:50 2019 +0000
+
+    Update .gitignore
+
+[33mcommit ec78cd5da32014024d7ad4facb54066a2f8ec150[m
+Author: nigelconnor <48335804+nigelconnor@users.noreply.github.com>
+Date:   Sun Mar 10 19:26:27 2019 +0000
+
+    Initial commit
+
+[33mcommit d7847e19f5254fe5db8f2834ab956c33c23e5a2a[m
+Author: Nigel O'Connor <treatyman@gmail.com>
+Date:   Sun Mar 10 19:22:59 2019 +0000
+
+    Added a 2nd line readme.md
+
+[33mcommit 841109a80693bc09ec2f97a7771693676979e19a[m
+Author: Nigel O'Connor <treatyman@gmail.com>
+Date:   Sun Mar 10 19:20:06 2019 +0000
+
+    Created the readme file
