@@ -106,5 +106,6 @@ const stubAPI = {
         }
         return result;
     },
+
 };
 export default stubAPI;

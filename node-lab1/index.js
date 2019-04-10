@@ -10,8 +10,6 @@ const app = express();
 
 const port = process.env.PORT;
 
-
-
 //configure body-parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());

@@ -41,4 +41,25 @@ router.post('/:id/upvote', (req, res) => {
     return res.status(404).send({ message: `Unable to find Post ${id}` });
 });
 
+// add a comment
+router.post('/:id/comments', (req, res) => {
+    const newComment = req.body;
+    const postID = req.params.id;
+
+    if (newComment && stubAPI.addComment(postID, newComment.comment, newComment.author)) {
+        return res.status(201).send({ message: 'Comment Created' });
+    }
+    return res.status(400).send({ message: 'Unable to find Post in comment request.' });
+});
+
+// upvote a comment
+router.post('/:id/comments/:commentId/upvote', (req, res) => {
+    const id = req.params.id;
+    const commentId = req.params.commentId;
+    if (stubAPI.upvoteComment(id, commentId )) {
+        return res.status(200).send({ message: `Comment ${id} - ${commentId} Upvoted` });
+    }
+    return res.status(404).send({ message: `Unable to find Post ${id}` });
+});
+
 export default router;
