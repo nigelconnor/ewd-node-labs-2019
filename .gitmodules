@@ -1,0 +1,3 @@
+[submodule "node-lab1/node-lab1/hackerNews"]
+	path = node-lab1/node-lab1/hackerNews
+	url = https://github.com/nigelconnor/ewd-node-labs-2019
